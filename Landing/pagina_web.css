@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+}
+.father {
+    background-color: black;
+    color: white;
+}
+.father_menu{
+    display: grid;
+    grid-template-areas:" logo1 menu1 menu2 menu3 menu4 menu5 menu6 menu7 menu8 menu9";
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 4fr 4fr 15fr 4fr 4fr;
+    align-items: end;
+    gap: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.logo1 {
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    grid-area: "logo1";
+    height: 20px;
+    width: 20px;
+}
+.menu1{
+    grid-area: "menu1";
+    font-size: x-large;
+}
+.menu2{
+    grid-area: "menu2";
+    color: gray;
+}
+.menu3{
+    grid-area: "menu3";
+    color: gray;
+}
+.menu4{
+    grid-area: "menu4";
+    color: gray;
+}
+.menu5{
+    grid-area: "menu5";
+    color: gray;
+}
+.menu6{
+    grid-area: "menu6";
+    color: gray;
+}
+.menu7{
+    grid-area: "menu7";
+}
+.menu8{
+    grid-area: "menu8";
+    color: gray;
+}
+.menu9{
+    grid-area: "menu9";
+    color: gray;
+}
+.father_cuerpo1{
+    display: grid;
+    gap: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 9%;
+}
+.cuerpo1 {
+    font-size: 400%;
+}
+.cuerpo2 {
+    display: grid;
+    padding-top: 3%;
+    color: gray;
+    font-size: 250%;
+}
+.father_cuerpo2{
+    display: grid;
+    gap: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    grid-template-areas: "get more espacio";
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+}
+.cp1 {
+    grid-area: "get";
+    font-size: 130%;
+    background-color: rgb(159, 130, 238);
+    color: white;
+    border-radius: 15%;
+    padding: 6% 1%;
+}
+.cp2 {
+    grid-area: "more";
+    color: rgb(159, 130, 238);
+    font-size: 140%;
+    border-radius: 110%;
+}
+.cp3 {
+    grid-area: "espacio";
+}
+.imagen1 {
+    padding: 13%;
+    padding-left: 20%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo2{
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    grid-area: "logo2";
+    height: 20px;
+    width: 20px;
+}
+.father_foot {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20%;
+}
+.row2{
+    
+}
